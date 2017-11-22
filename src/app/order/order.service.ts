@@ -4,7 +4,6 @@ import {CartItem} from '../restaurant-detail/shopping-cart/cart-item.model'
 
 @Injectable()
 
-
 export class OrderService {
   constructor(private cartService: ShoppingCartService){}
 
